@@ -6,7 +6,7 @@ let main argv =
     printfn "Hello World!!SD"
     
 
-    let getMeTone index = 
+    let getMeTone (index: int) = 
         let la = 440 
         int (float la * Math.Pow(2.0,float index/12.0))
 
